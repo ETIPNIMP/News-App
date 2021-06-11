@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_zee"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/zee_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_abp"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/abp_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_republic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/republic_world_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_India"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/india_tv"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_24"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/news_24"
+            android:menuCategory="secondary"/>
+    </group>
+
+</menu>

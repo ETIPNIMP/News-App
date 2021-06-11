@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_zee">
+
+    <fragment
+        android:id="@+id/nav_zee"
+        android:name="com.example.news.ui.zee.HomeFragment"
+        android:label="@string/zee_news"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_abp"
+        android:name="com.example.news.ui.abp.GalleryFragment"
+        android:label="@string/abp_news"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_republic"
+        android:name="com.example.news.ui.republic.SlideshowFragment"
+        android:label="@string/republic_world_news"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_India"
+        android:name="com.example.news.india.IndiaTv"
+        android:label="@string/india_tv"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_24"
+        android:name="com.example.news.news.News24"
+        android:label="@string/news_24"
+        tools:layout="@layout/fragment_slideshow" />
+
+
+</navigation>
